@@ -1,0 +1,113 @@
+.about{
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 20px 10px 20px 10px;
+}
+
+.about__title{
+    text-align: end;
+    margin-bottom: 30px;
+    padding-right: 20px;
+}
+
+.about__text, .about__item{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 122%;  
+    padding: 0;
+    margin: 0;
+}
+
+.about__text{
+    margin-bottom: 25px;
+}
+
+.about__item{
+    margin-bottom: 5px;
+}
+
+.about__text:last-of-type{
+    margin-bottom: 5px;
+}
+
+.about__list{
+    margin: 0;
+}
+
+.about__img{
+    height: auto;
+    width: 100%;
+    max-width: 483px;
+}
+
+.about__cont-img{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.about__cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about__cont-text{
+    max-width: 620px;
+}
+
+
+@media screen and (width <= 1140px) {
+    .about__cont-text{
+        max-width: 1120px;
+    }
+
+    .about__cont{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .about__cont-img{
+        flex-direction: row;
+        justify-content: center;
+        max-width: 1120px;
+    }
+
+    .about__img{
+        width: 45%;
+    }
+    
+}
+
+@media screen and (width <= 400px) {
+    .about__title{
+        font-size: 24px;
+        line-height: 108%;
+    }
+
+    .about__text{
+        font-size: 16px;
+        line-height: 112%;
+    }
+
+    .about__item{
+        font-size: 16px;
+        line-height: 125%;
+    }
+}
+
+
+summary{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+summary:hover,
+summary:active{
+    color: #1166f0;
+}
+
+
+details[open] summary {
+    display: none; /* Скрываем summary, когда details открыты */
+}

@@ -1,0 +1,70 @@
+.end{
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 60px 15px 50px 15px;
+
+    background-image: url(../../images/BlueOval.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+
+.end__title{
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.end__cont{
+    max-width: 260px;
+    margin: 0 auto;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+
+
+.end__number{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 108%;
+    text-align: center;
+    color: #fff;
+}
+
+.end__number:hover,
+.end__number:active{
+    color: #367ef3;
+}
+
+.end__cont-icon{
+    display: flex;
+    gap: 10px;
+}
+
+.end__icon-link{
+    padding: 5px;
+}
+
+.end__icon{
+    width: 40px;
+    height: 40px;
+}
+
+@media screen and (width <= 390px) {
+    .end{
+        padding: 40px 15px 30px 15px;
+    }
+    .end__title{
+        font-size: 20px;
+        line-height: 110%;
+    }
+
+    .end__number{
+        font-size: 16px;
+        line-height: 112%;
+    }
+}

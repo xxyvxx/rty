@@ -1,0 +1,69 @@
+.page{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: "Nunito Sans", serif;
+    background-color: #1E1E1E;
+    color: #fff;
+
+    overflow: hidden;
+}
+
+.content{
+    margin: 0 auto;
+}
+
+h2{
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 106%;
+    color: #367ef3;
+    padding: 0;
+    margin: 0;
+}
+
+h3{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 110%;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+.row{
+    height: 1px; 
+    background-color: #1166f095;
+    box-shadow: 0 -4px 10px 1px #1166f0, 0 4px 10px 1px #1166f0;
+    margin: 0 auto; 
+    max-width: 1190px;
+}
+
+
+::-webkit-scrollbar {
+    width: 5px; /* Ширина вертикального скроллбара */
+    height: 6px; /* Высота горизонтального скроллбара */
+}
+
+::-webkit-scrollbar-track {
+    background: #7b7979; /* Цвет фона трека (белый) */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #367ef3; /* Цвет ползунка (черный) */
+    border-radius: 1px; /* Скругление углов ползунка */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #444444; /* Цвет ползунка при наведении */
+}
+
+.scrollable-element {
+    scrollbar-width: thin; /* Узкий скроллбар */
+    scrollbar-color: #367ef3 #1E1E1E; /* Цвет ползунка и трека (черный и белый) */
+}
+
+/* Для Internet Explorer и Edge (до версии 20) */
+.scrollable-element {
+    -ms-overflow-style: -ms-autohiding-scrollbar; /* Авто-скрывающийся скроллбар */
+}

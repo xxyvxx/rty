@@ -1,0 +1,9 @@
+@import url(../vendor/normalize.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/about/about.css);
+@import url(../blocks/work/work.css);
+@import url(../blocks/price/price.css);
+@import url(../blocks/auto/auto.css);
+@import url(../blocks/end/end.css);
